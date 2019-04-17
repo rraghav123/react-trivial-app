@@ -1,0 +1,15 @@
+.trivial__answer--label {
+    display: flex;
+    flex-direction: column;
+    & > label {
+        cursor: pointer;
+    }
+    & > *:not(:last-child) {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    &__correct-answer {
+        text-align: center;
+        color: #006500;
+    }
+}

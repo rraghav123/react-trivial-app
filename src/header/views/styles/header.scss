@@ -1,0 +1,25 @@
+.react-trivial__header {
+    &-wrapper {
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        box-shadow: 0 4px 8px 0 #75757557;
+        align-items: center;
+        background-color: #39424e;
+        color: #b7c9cc;
+    }
+    &-category {
+        display: flex;
+        flex-direction: column;
+    }
+    &-progress {
+      & > p {
+        margin: 0;
+        text-align: center;
+      }
+    }
+    &-difficulty {
+
+    }
+}
