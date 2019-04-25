@@ -69,7 +69,7 @@ class Main extends PureComponent {
         .filter(questionObj => questionObj
           .correct_answer === this.state.selectedAnswers[questionObj.id]);
       return (
-        <div className="react-trivial__wrapper">
+        <div className="react-trivial__wrapper react-trivial__wrapper--results">
           <div className="react-trivial__results">
             <p>{`You Scored: ${res.length} out of ${questionsLength}`}</p>
             <button onClick={this.handleShowResults} type="button" className="react-trivial__button">Show Answers</button>
